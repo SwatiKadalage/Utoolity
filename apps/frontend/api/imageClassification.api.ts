@@ -34,7 +34,6 @@ export const imageClassificationApi = {
     );
     return data;
   },
-
   async createFolder(folderName: string) {
     const { data } = await api.post(
       "/tools/image-classification/folders",
